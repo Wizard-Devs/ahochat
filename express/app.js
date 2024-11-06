@@ -1,4 +1,4 @@
-//Rotas são caminhos para aplicação
+
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser')
