@@ -1,0 +1,12 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+
+    background-color: rgb(24 24 27);
+    color: white;
+}

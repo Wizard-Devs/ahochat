@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser')
 const handlebars = require('express-handlebars')
-const Post = require('../models/Post.js');
+const Post = require('./models/Post.js');
 const { ForeignKeyConstraintError } = require('sequelize');
 
 
